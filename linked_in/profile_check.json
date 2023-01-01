@@ -1,7 +1,21 @@
 {
-  "method": "GET",
-  "url": "https://api.reversecontact.com/users/api/profile",
+  "method": "POST",
+  "url": "http://mockbin.com/request",
+  "httpVersion": "HTTP/1.1",
   "queryString": [
-    { "name": "apikey", "value": "bar" },
-  ]
+    { "name": "foo", "value": "bar" },
+    { "name": "foo", "value": "baz" }
+  ],
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" }
+  ],
+  "cookies":  [
+    { "name": "foo", "value": "bar" },
+    { "name": "bar", "value": "baz" }
+  ],
+  "postData": {
+    "mimeType": "application/json",
+    "text": "{\"foo\": \"bar\"}"
+  }
 }
