@@ -1,0 +1,14 @@
+{
+  "method": "GET",
+  "url": "https://api.reversecontact.com/users/api/profile",
+  "httpVersion": "HTTP/1.1",
+  "queryString": [
+    { "name": "apikey", "value": "API_KEY" },
+    { "name": "mail", "value": "TARGET_EMAIL}" }, 
+    ],
+  "headers": [
+    { "name": "Accept", "value": "application/json" },
+    { "name": "Content-Type", "value": "application/json" }
+  ],
+  "postData" : {}
+}
