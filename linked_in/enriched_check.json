@@ -4,7 +4,7 @@
   "httpVersion": "HTTP/1.1",
   "queryString": [
     { "name": "apikey", "value": "API_KEY" },
-    { "name": "mail", "value": "TARGET_EMAIL}" }, 
+    { "name": "mail", "value": "TARGET_EMAIL}" }
     ],
   "headers": [
     { "name": "Accept", "value": "application/json" },
